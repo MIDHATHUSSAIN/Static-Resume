@@ -1,0 +1,61 @@
+*{
+    overflow-x: hidden  !important; 
+}
+body{
+   color: white;
+   overflow-x: hidden !important;
+}
+h1{
+    text-shadow: 3px 3px 2px skyblue;
+}
+#book{
+    background-color:darkgreen;
+     border: 5px groove orange;
+     max-width: 1000px;
+}
+a{
+    text-decoration: none;
+    color: orange;
+    font-size: 18px;
+}
+p{
+    text-transform: capitalize;
+}
+h1{
+    font-size: 60px;
+    font-stretch: 100px;
+}
+p{
+    word-spacing: 6px;
+}
+#a{
+    margin-right: 2rem;
+}
+h3{ 
+    font-size: 20px;
+    color:yellow;
+}
+#orange{
+    line-height: 25px;
+}
+li{
+   letter-spacing: 1px; 
+}
+h3{
+    text-decoration: underline;
+}
+#blue{
+    padding-left: 30px;
+}
+#or{
+   color: orange;
+}
+#purple{
+    text-transform: uppercase;
+}
+
+@media (width <= 500px){
+     ul{
+        padding-left: 0 !important;
+     }
+}
